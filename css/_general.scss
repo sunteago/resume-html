@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .85px;
+}
+
+body {
+  background: var(--background);
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+
+@media (min-width: $breakpointMD) {
+  .container {
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:    
+      "header header"
+      "aside main"
+      "footer footer";
+  }
+}
+
+@media (min-width: $breakpointLG) {
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+}

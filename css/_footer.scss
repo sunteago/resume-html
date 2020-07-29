@@ -1,0 +1,23 @@
+.footer {
+  grid-area: footer;
+  background: var(--secondary-darker);
+  padding-top: var(--element-spacing);
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    a {
+      width: 32px;
+      margin: 1rem;
+      color: red;
+      &:hover {
+        filter: brightness(5000%);
+        cursor: pointer;
+      }
+    }
+  }
+  .footer-description {
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+    color: var(--contrast);
+  }
+}

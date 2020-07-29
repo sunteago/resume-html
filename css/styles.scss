@@ -1,0 +1,28 @@
+$breakpointMD: 768px;
+$breakpointLG: 1280px;
+
+:root {
+    --primary: #fd4345;
+    --secondary: #253446;
+    --secondary-darker: #192330;
+    --contrast: #fdfdfd;
+    --lighter: #9DA4AC;
+    --background: #f0f1f2;
+    --element-padding: 1rem;
+    --element-padding-lg: 2rem;
+    --element-spacing: 1.25rem;
+}
+
+@mixin section-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+@import 'general';
+@import 'header';
+@import 'aside';
+@import 'main';
+@import 'footer';

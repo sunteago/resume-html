@@ -1,0 +1,40 @@
+.header {
+  grid-area: header;
+  background: var(--primary);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4rem 0;
+  .header-name {
+    color: var(--contrast);
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .header-profession {
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media (min-width: $breakpointMD) {
+  .header {
+    padding: 5rem 4rem;
+    .header-name {
+      font-size: calc(3rem + .75vw);
+      text-align: left;
+    }
+    .header-profession{
+      font-weight: 400;
+      font-size: calc(1.5rem + .75vw);
+      text-align: left;
+    }
+  }
+}
+
+@media (min-width: $breakpointLG) {
+  .header {
+    padding: 7rem 4rem;
+  }
+}
