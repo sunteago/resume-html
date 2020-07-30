@@ -155,13 +155,13 @@ body {
   color: var(--secondary);
   text-transform: uppercase;
   font-size: 1rem;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 }
 .main .main-section .main-section__subsection-subtext {
   color: var(--lighter);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
-  margin: 0.3rem 0 0.7rem 0;
+  margin: 0 0 0.7rem 0;
 }
 .main .separator {
   margin: 1.5rem auto;
